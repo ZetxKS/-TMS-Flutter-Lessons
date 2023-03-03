@@ -1,3 +1,4 @@
+import 'package:firstflutterapp/screens/profile2_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:firstflutterapp/screens/profile_screen.dart';
 
@@ -11,7 +12,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: ProfileScreen()
+      home: Profile2Screen()
     );
   }
 }
